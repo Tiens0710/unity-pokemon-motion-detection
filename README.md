@@ -20,11 +20,21 @@ The goal is to create a more **immersive and physical interaction** with the gam
 
 ## 🎥 Gameplay Demo
 
-Below is a short demo showing character movement and interaction controlled by body motion:
+> ⚠️ **GitHub does not reliably support embedded `<video>` tags in README files.**
 
-<video src="./DemoGame.mp4" controls width="720"></video>
+### ▶️ Watch the demo video
 
-> If the video does not autoplay on your device, download `DemoGame.mp4` directly from the repository.
+Click the link below to watch or download the gameplay demo:
+
+👉 **[Watch DemoGame.mp4](./DemoGame.mp4)**
+
+Or view via raw link:
+
+```
+https://github.com/Tiens0710/REPO_NAME/raw/master/DemoGame.mp4
+```
+
+> If the video does not play in the browser, GitHub will automatically download it.
 
 ---
 
@@ -39,6 +49,78 @@ Below is a short demo showing character movement and interaction controlled by b
 4. Signals are sent to Unity to update the character state in real time
 
 This allows **hands-free gameplay** using natural body movement.
+
+---
+
+## 🕹️ Features
+
+* 🎥 Real-time motion detection via webcam
+* 🧍 Character movement using body gestures
+* 🎮 Unity-based Pokémon-style gameplay
+* 🧠 Computer Vision integration
+* 🔌 Extensible architecture for AR / AI upgrades
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── DemoGame.mp4        # Gameplay demo video
+├── motiondetection.py # Python script for motion detection (OpenCV)
+└── README.md           # Project documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Requirements
+
+* Python 3.8+
+* Unity Hub + compatible Unity version
+* Webcam
+
+Install Python dependencies:
+
+```bash
+pip install opencv-python numpy
+```
+
+### 2️⃣ Run Motion Detection
+
+```bash
+python motiondetection.py
+```
+
+### 3️⃣ Run Unity Game
+
+* Open the Unity project
+* Start the main scene
+* Ensure the webcam is active and the Python script is running
+
+---
+
+## 🎯 Project Goals
+
+* Apply **Computer Vision** to interactive games
+* Explore **motion-based control systems**
+* Build a foundation for:
+
+  * AR / VR games
+  * Pokémon GO–style experiences
+  * Educational & rehabilitation games
+
+---
+
+## 🔮 Future Improvements
+
+* Full body pose detection (MediaPipe / PoseNet)
+* Gesture-based Pokémon battles
+* Multiplayer motion tracking
+* AR mode with real-world interaction
+
+---
 
 ## 👨‍💻 Author
 
